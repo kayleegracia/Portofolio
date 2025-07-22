@@ -67,6 +67,119 @@
   </div>
 </section>
 
+<section id="#Hobby">
+  <div class="group">
+    <div class="item" style="--url: url('')">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label for="menu">My Hobby</label>
+      </div>
+    </div>
+
+      <div class="group">
+    <div class="item" style="--url: url('')">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label for="menu">My Hobby</label>
+      </div>
+    </div>
+
+      <div class="group">
+    <div class="item" style="--url: url('')">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label for="menu">My Hobby</label>
+      </div>
+    </div>
+
+      <div class="group">
+    <div class="item" style="--url: url('')">
+      <div class="overlay"></div>
+      <div class="menu">
+        <label for="menu">My Hobby</label>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+
+  <style>
+    h2{
+      color:aquamarine;
+      text-align: center;
+      font-size: 40px;
+      font-weight: normal;
+      letter-spacing: -2px;
+      word-spacing: -20px;
+      line-height:0.9;
+      padding-top: 7vh;
+      margin-bottom: 5vh;
+    }
+
+    h2 span{
+      color:white;
+    }
+
+    .group{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .item{
+      width: 10vw;
+      height: 65vh;
+      position: relative;
+      background-image: var();
+      background-position: center;
+      background-size: 75vh;
+      margin: 1vw;
+      border-radius: 3vw;
+      display: inline-block;
+      cursor: pointer;
+      box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+    }
+
+ .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3vw;
+  position: absolute;
+  height: 65vh;
+  width: 100%;
+  opacity: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu{
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  border-radius: 0 0 3vw 3vw;
+  transform: translateX(-50%);
+  background: linier-gradient(to top, rbga 0,0,0,0.8) 50%, rgba(0,0,0,0);
+  opacity: 1;
+}
+
+.menu label{
+  color:aliceblue;
+  display: block;
+  font-size: 20px;
+  letter-spacing: -2px;
+  word-spacing: -10px;
+  text-transform: capitalize;
+  overflow-x: hidden;
+  text-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+
+  </style>
+
+</section>
 
 <img src="WhatsApp Image 2025-07-21 at 18.30.10.jpeg" alt="Foto Kaylee" class="object-cover w-screen h-80 rounded shadow-md" />
 
@@ -124,39 +237,34 @@
   </form>
 </div>
 
-  <button class=" inline-block rounded-md px-20 h-35 bg-[#213555] m-10 transition-transform duration-300 hover:scale-105">
-      <p class="text-white font-serif font-bold text-xl">
-      WhatsApp!
-      </p>
-          <a href="https://wa.me/qr/M2BAFXNCRMRWL1" target="_blank" class="text-white underline font-serif text-md">
-            +62 812-8531-3474
-          </a>
+<section id="Message" class="w-full flex flex-wrap justify-center gap-10 p-10">
+
+  <!-- WhatsApp -->
+  <button class="w-64 rounded-md px-6 py-6 bg-[#213555] text-white text-center transition-transform duration-300 hover:scale-105">
+    <p class="text-xl font-bold font-serif">WhatsApp!</p>
+    <a href="https://wa.me/qr/M2BAFXNCRMRWL1" target="_blank" class="underline block">
+      +62 812-8531-3474
+    </a>
   </button>
 
-    <button class="inline-block rounded-md px-10 h-35 bg-[#3E5879] m-10 transition-transform duration-300 hover:scale-105">
-      <p class="text-white font-serif font-bold text-xl">
-      ✉︎ Gmail!
-      </p>
-          <a href="." target="_blank" class="text-white underline font-serif text-md">
-            Kayleegracia20@gmail.com
-          </a>
+  <!-- GitHub -->
+  <button class="w-64 rounded-md px-6 py-6 bg-[#F5EFE7] text-black text-center transition-transform duration-300 hover:scale-105">
+    <p class="text-xl font-bold font-serif">GitHub!</p>
+    <a href="#" target="_blank" class="underline block">
+      github.com/username
+    </a>
   </button>
 
-      <button class="inline-block rounded-md px-10 h-35 bg-[#F5EFE7] m-10 transition-transform duration-300 hover:scale-105">
-      <p class="text-black font-serif font-bold text-xl">
-      GitHub!
-      </p>
-          <a href="." target="_blank" class="text-white underline font-serif text-md">
-            .
-          </a>
+  <!-- Gmail -->
+  <button class="w-64 rounded-md px-6 py-6 bg-[#3E5879] text-white text-center transition-transform duration-300 hover:scale-105">
+    <p class="text-xl font-bold font-serif">✉︎ Gmail!</p>
+    <a href="mailto:Kayleegracia20@gmail.com" target="_blank" class="underline block">
+      Kayleegracia20@gmail.com
+    </a>
   </button>
+
 </section>
 
 </body>
-
-<footer class="bg-black text-white text-sm py-3">
-  <hr class="border-gray-600 w-auto mx-auto mb-2" />
-  <p class="text-center">© 2025 Kaylee Gracia · All Rights Reserved</p>
-</footer>
 
 </html>
